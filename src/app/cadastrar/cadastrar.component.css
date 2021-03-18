@@ -1,3 +1,6 @@
+h1{
+    color: #41a3e0;
+}
 
 .bg-azul{
     background-image: linear-gradient(to right, #04BFAD , #024873);
@@ -43,7 +46,7 @@
 .btn-primary:nth-child(1){
     margin-left: 5%;
 
-    background-color: #990505 ;
+    background-color: #ad2e2e ;
  
     border-color: #990505 ;
 }
