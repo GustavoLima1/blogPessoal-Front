@@ -1,0 +1,52 @@
+
+.bg-azul{
+    background-image: linear-gradient(to right, #04BFAD , #024873);
+}
+
+.container-fluid {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/../assets/img/img-background.jpg);
+    display: flex;
+    justify-content: auto;
+
+    background-size: cover;
+    font-size: 14px;
+  
+}
+.container{
+    width: 100%;
+    
+    
+}
+
+.container-foto{
+  
+    margin: 5%;
+}
+.container-foto img {
+    width: 100%;
+    border-radius: 5%;
+    height: 50vh;
+}
+
+.container-continua{
+  
+    border-radius: 5%;
+    
+}
+.btn-primary:nth-child(2){
+    margin-left: 5%;
+    background-image: linear-gradient(to right, #04BFAD , #024873);
+}
+.btn-primary:nth-child(1){
+    margin-left: 5%;
+    background-image: linear-gradient(to right, #F28963 , #990505);
+}
+.btn-primary:hover{
+
+    -webkit-box-shadow: 2px 5px 5px rgba(97, 9, 100, 0.30);
+		-moz-box-shadow:    2px 5px 5px rgba(97, 9, 100, 0.30);
+		box-shadow:         2px 5px 5px rgba(97, 9, 100, 0.30);
+    
+}

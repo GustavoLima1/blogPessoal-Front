@@ -1,0 +1,44 @@
+.fs-16{
+    font-size: 16pt;
+}
+.bg-azul{
+    background-image: linear-gradient(to right, #04BFAD , #024873);
+}
+
+.container-fluid {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/../assets/img/img-background.jpg);
+    display: flex;
+    justify-content: auto;
+  
+    background-size: cover;
+    font-size: 14px;
+  
+}
+.container{
+    min-width: 60%;
+}
+
+.container-foto{
+    width: 60%;
+}
+.container-foto img {
+    width: 80%;
+    border-radius: 5%;
+    height: 50vh;
+}
+
+.container-continua{
+  
+    border-radius: 5%;
+}
+.botao{
+    border-bottom: 6px solid transparent;
+    border-image: linear-gradient(to right, #04BFAD , #024873);
+    border-image-slice: 1;
+}
+.botao a:hover {
+
+    background-image: linear-gradient(to right, #04BFAD , #024873);
+}
