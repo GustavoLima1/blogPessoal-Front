@@ -1,3 +1,7 @@
+.pg-20{
+    margin-top: 20px;
+}
+
 .fs-16{
     font-size: 16pt;
 }
@@ -8,7 +12,7 @@
 .container-fluid {
     width: 100%;
     min-height: 100vh;
-    background-image: url(/../assets/img/img-background.jpg);
+    background-image: url(../../assets/img/planoDeFundo.jpg);
     display: flex;
     justify-content: auto;
   
@@ -21,7 +25,8 @@
 }
 
 .container-foto{
-    width: 60%;
+    height: 35%;
+    width: 35%;
 }
 .container-foto img {
     width: 80%;
@@ -30,15 +35,16 @@
 }
 
 .container-continua{
-  
-    border-radius: 5%;
+    
+    padding: 5% 5%;
+    border: 1px solid white;
+    border-radius: 5%; 
 }
-.botao{
-    border-bottom: 6px solid transparent;
-    border-image: linear-gradient(to right, #04BFAD , #024873);
-    border-image-slice: 1;
+.btn-outline{
+    background-color: #04BFAD ;
+    border-color: #024873 ;
+ 
 }
-.botao a:hover {
-
+.btn-outline:hover {
     background-image: linear-gradient(to right, #04BFAD , #024873);
 }
