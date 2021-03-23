@@ -15,29 +15,29 @@ h1{
 
     background-size: cover;
     font-size: 14px;
-  
+
 }
 .container{
     width: 100%;
-    
+
 }
 
 .container-foto{
-  
+
     margin: 5%;
 }
 .container-foto img {
-    
+
     height: 60vh;
 }
 
 .container-continua{
-    
+
     border-radius: 5%;
     padding: 5% 0% 5;
     border: 1px solid ;
-    
-    
+
+
 }
 .btn-primary:nth-child(2){
     margin-left: 5%;
@@ -47,16 +47,16 @@ h1{
     margin-left: 5%;
 
     background-color: #ad2e2e ;
- 
+
     border-color: #990505 ;
 }
 .btn-primary:hover:nth-child(1){
 
     background-image: linear-gradient(to right, #e46d6d , #990505);
-    
+
 }
 .btn-primary:hover:nth-child(2){
 
     background-image: linear-gradient(to right, #04BFAD , #024873);
-    
+
 }

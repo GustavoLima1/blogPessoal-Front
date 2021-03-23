@@ -1,5 +1,5 @@
 <div class="container-fluid row">
-    <div class="container d-flex justify-content-center align-items-center align-content-collumn" >   
+    <div class="container d-flex justify-content-center align-items-center align-content-collumn" >
     <div class="container-foto pg-0">
         <div>
             <img src="../../assets/img/banner.png" alt="">
@@ -11,17 +11,17 @@
         </div>
             <div class="form-group fs-16">
             <label for="usuario">Usuario</label>
-            <input class="form-control"type="text" name="usuario" id="usuario" placeholder="usuario">
+            <input [(ngModel)]='userLogin.usuario' class="form-control"type="text" name="usuario" id="usuario" placeholder="usuario">
            </div>
            <div class="form-group fs-16">
             <label for="senha">Senha</label>
-            <input class="form-control"type="text" name="senha" id="senha" placeholder="senha">
+            <input [(ngModel)]='userLogin.senha'class="form-control"type="password" name="senha" id="senha" placeholder="senha">
            </div>
            <div class="text-center">
-            <button class="btn btn-outline  my-2 justify-content-center botao" type="submit">Entrar </button>
+            <button class="btn btn-outline  my-2 justify-content-center botao" type="submit" (click)='entrar()'>Entrar </button>
            </div>
-           <p class="text-center pg-20"> 
-               Não tem uma conta ? <a routerLink="/cadastrar" class="text-danger">Cadastre-se</a>
+           <p class="text-center pg-20">
+               Não tem uma conta ? <a routerLink="/cadastrar" class="text-danger" >Cadastre-se</a>
            </p>
         </div>
     </div>

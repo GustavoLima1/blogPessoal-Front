@@ -1,6 +1,9 @@
+import { NgModule } from '@angular/core';
+
+import { InicioComponent } from './inicio/inicio.component';
 import { LoginComponent } from './login/login.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
-import { NgModule } from '@angular/core';
+
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
@@ -8,14 +11,16 @@ const routes: Routes = [
   {path: '', redirectTo: 'login', pathMatch: 'full'},
 
   {path:'login', component: LoginComponent},
-  {path: 'cadastrar', component: CadastrarComponent}
+  {path: 'cadastrar', component: CadastrarComponent},
+
+  {path: 'inicio', component: InicioComponent}
 
 ];
 
 
 @NgModule({
-  
-  imports: [RouterModule.forRoot(routes)], 
+
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 
 })
