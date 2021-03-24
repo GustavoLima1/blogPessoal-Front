@@ -6,6 +6,8 @@ import { CadastrarComponent } from './cadastrar/cadastrar.component';
 
 import { Routes, RouterModule } from '@angular/router';
 
+import { TemaComponent } from './tema/tema.component';
+
 const routes: Routes = [
 
   {path: '', redirectTo: 'login', pathMatch: 'full'},
@@ -13,7 +15,8 @@ const routes: Routes = [
   {path:'login', component: LoginComponent},
   {path: 'cadastrar', component: CadastrarComponent},
 
-  {path: 'inicio', component: InicioComponent}
+  {path: 'inicio', component: InicioComponent},
+  {path: 'tema', component: TemaComponent}
 
 ];
 
