@@ -8,23 +8,25 @@ import { User } from '../model/User';
 @Injectable({
   providedIn: 'root'
 })
+
 export class AuthService {
 
+  baserUrl = environment.server + environment.port
   constructor(
     private http: HttpClient
   ) { }
 
   login (userLogin: UserLogin): Observable<UserLogin>{
-    return this.http.post<UserLogin>('http://localhost:8080/usuarios/logar', userLogin)
+    return this.http.post<UserLogin>(this.baserUrl +'/usuarios/logar', userLogin)
   }
 
   cadastrar(user: User): Observable<User>{
-    return this.http.post<User>('http://localhost:8080/usuarios/cadastrar', user)
+    return this.http.post<User>(this.baserUrl + '/usuarios/cadastrar', user)
   }
 
   logado(){
     let ok: boolean = false
-    
+
     if (environment.token != ''){
     ok = true
     }
