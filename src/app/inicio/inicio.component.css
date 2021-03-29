@@ -1,0 +1,23 @@
+.card-columns{
+  column-count: 2;
+}
+.botao{
+  background-color: #4089e9;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.botao:hover {opacity: 1}
+
+.botao a{
+  color: white;
+}
