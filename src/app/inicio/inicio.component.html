@@ -70,6 +70,8 @@
               {{item.data | date: 'dd/MM/yyyy'}} às {{item.data | date: 'HH:mm'}}
             </small></p>
 
+            <a class="mr-4 text-danger"[routerLink]="['/postagem-delete', item.id]"><i class="fa fa-trash" aria-hidden="true"></i></a>
+            <a class="  text-info"  [routerLink]="['/postagem-edit', item.id]"> <i class="fa fa-pencil" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>

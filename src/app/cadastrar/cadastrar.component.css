@@ -5,11 +5,18 @@ h1{
 .bg-azul{
     background-image: linear-gradient(to right, #04BFAD , #024873);
 }
+.fs-16{
+  font-size: 30pt;
+}
+.form-control{
+  font-size: 10pt;
+}
+
 
 .container-fluid {
     width: 100%;
     min-height: 100vh;
-    background-image: url(../../assets/img/planoDeFundo.jpg);
+    background-image: url(https://cdn.wallpapersafari.com/18/65/6Ydeya.jpg);
     display: flex;
     justify-content: auto;
 
@@ -34,8 +41,9 @@ h1{
 .container-continua{
 
     border-radius: 5%;
-    padding: 5% 0% 5;
+    padding: 1% 5% ;
     border: 1px solid ;
+    background: rgba(0, 0, 0, 0.6);
 
 
 }
@@ -52,7 +60,8 @@ h1{
 }
 .btn-primary:hover:nth-child(1){
 
-    background-image: linear-gradient(to right, #e46d6d , #990505);
+    background: none;
+    border: 2px solid red;
 
 }
 .btn-primary:hover:nth-child(2){

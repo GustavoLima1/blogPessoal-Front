@@ -1,22 +1,24 @@
-<div class="container-fluid row">
-    <div class="container d-flex justify-content-center align-items-center align-content-collumn" >
-    <div class="container-foto pg-0">
+<div class="container-fluid row d-flex align-items-center justify-content-center">
+
+    <div class="container-continua col-md-4 font-weight-bold text-white text-center">
+
         <div>
-            <img src="../../assets/img/banner.png" alt="">
+            <h1 class=" ">Entrar</h1>
         </div>
-    </div>
-    <div class="container-continua col-md-5 font-weight-bold text-white ">
-        <div>
-            <h1 class="text-center ">Entrar</h1>
-        </div>
-            <div class="form-group fs-16">
-            <label for="usuario">Usuario</label>
-            <input [(ngModel)]='userLogin.usuario' class="form-control"type="text" name="usuario" id="usuario" placeholder="usuario">
+            <div class="form-group ">
+              <div>
+            <label  for="usuario">Usuario</label>
+             </div>
+            <input [(ngModel)]='userLogin.usuario' class="form-control" type="text" name="usuario" id="usuario" placeholder="usuario">
            </div>
-           <div class="form-group fs-16">
+           <div class="form-group ">
+             <div>
             <label for="senha">Senha</label>
+          </div>
+          <div>
             <input [(ngModel)]='userLogin.senha'class="form-control"type="password" name="senha" id="senha" placeholder="senha">
-           </div>
+          </div>
+        </div>
            <div class="text-center">
             <button class="btn btn-outline  my-2 justify-content-center botao" type="submit" (click)='entrar()'>Entrar </button>
            </div>
@@ -25,5 +27,5 @@
            </p>
         </div>
     </div>
-</div>
+
 

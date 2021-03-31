@@ -1,3 +1,7 @@
+bodu{
+  line-height: 0;
+}
+
 h1{
     color: #41a3e0;
 }
@@ -6,7 +10,7 @@ h1{
 }
 
 .fs-16{
-    font-size: 16pt;
+    font-size: 10pt;
 }
 .bg-azul{
     background-image: linear-gradient(to right, #04BFAD , #024873);
@@ -15,7 +19,7 @@ h1{
 .container-fluid {
     width: 100%;
     min-height: 100vh;
-    background-image: url(../../assets/img/planoDeFundo.jpg);
+    background-image: url(https://cdn.wallpapersafari.com/18/65/6Ydeya.jpg);
     display: flex;
     justify-content: auto;
 
@@ -23,31 +27,27 @@ h1{
     font-size: 14px;
 
 }
-.container{
-    min-width: 60%;
-}
 
-.container-foto{
-    height: 35%;
-    width: 35%;
-}
-.container-foto img {
-    width: 80%;
-    border-radius: 5%;
-    height: 50vh;
-}
 
 .container-continua{
-
-    padding: 5% 5%;
+    padding: 1% 5%;
     border: 1px solid white;
     border-radius: 5%;
+    background: rgba(0, 0, 0, 0.6);
+    width: 250px;
 }
+
+
 .btn-outline{
     background-color: #04BFAD ;
-    border-color: #024873 ;
-
+    border: 2px solid transparent;
 }
 .btn-outline:hover {
-    background-image: linear-gradient(to right, #04BFAD , #024873);
+    background: none;
+    border: 2px  solid #04BFAD ;
+    color: white;
+}
+
+.form-control{
+  font-size: 10pt;
 }

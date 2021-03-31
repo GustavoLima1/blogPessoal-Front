@@ -1,7 +1,7 @@
 import { AuthService } from './../service/auth.service';
 
-import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { HttpHeaders } from '@angular/common/http';
+
 import { TemaService } from './../service/tema.service';
 import { PostagemService } from './../service/postagem.service';
 import { Postagem } from './../model/Postagem';
@@ -82,7 +82,7 @@ export class InicioComponent implements OnInit {
     this.user.id = this.idUser
     this.postagem.usuario = this.user
     this.postagemService.postPostagem(this.postagem).subscribe((resp: Postagem)=>{
-      this.postagem = resp
+    this.postagem = resp
 
       alert('Postagem realizada com sucesso')
       this.postagem = new Postagem()
