@@ -30,6 +30,13 @@ export class AuthService {
     })
   }
 
+  atualizar(user: User): Observable<User>{
+    return this.http.put<User>( this.baserUrl + '/usuarios', user , {
+      headers: {'Authorization':environment.token}
+    })
+
+  }
+
   logado(){
     let ok: boolean = false
 
