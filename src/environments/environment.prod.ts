@@ -5,6 +5,6 @@ export const environment = {
   id: 0,
   foto: '',
 
-  server: 'http://localhost:',
-  port: '8080'
+  server: 'https://blog-pessoal-generation.herokuapp:',
+  port: ''
 };
